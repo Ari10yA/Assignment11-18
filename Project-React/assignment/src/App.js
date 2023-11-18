@@ -10,7 +10,7 @@ function App() {
   const [docData, setDocData] = useState([]);
 
   useEffect(() => {
-    let link = 'http://localhost:4000/data/'
+    let link = 'https://assignment-rest.onrender.com/data/'
     if(docType!=''){
       link+=docType;
     }

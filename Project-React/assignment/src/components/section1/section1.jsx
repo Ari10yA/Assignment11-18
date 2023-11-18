@@ -12,7 +12,7 @@ const Section1 = (props) => {
     const [cards, setCards] = useState([{_id: 'unique', type: 'All'}]);
 
     useEffect(() => {
-        fetch('http://localhost:4000/types', {
+        fetch('https://assignment-rest.onrender.com/types', {
             method: "GET"
         })
         .then(response => {
