@@ -1,0 +1,42 @@
+.section1{
+    width: 95%;
+    margin: 1rem auto;
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.section1_header{
+    font-size: 2rem;
+    /* font-size: 1.6rem; */
+    font-weight: bold;
+    margin: 0.5rem 0;
+    color: rgb(56, 56, 56);
+}
+
+.section1_header2{
+    font-size: 1.4rem;
+    /* font-size: 1.2rem; */
+    margin: 0
+}
+
+.section1_cards{
+    margin-top: 1rem;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: darkgrey lightgrey;
+}
+
+.section1_cards::-webkit-scrollbar{
+    height: 8px;
+    border-radius: 5px;
+}
+
+.section1_cards::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+}
+
+.section1_cards::-webkit-scrollbar-track {
+    background-color: lightgray;
+}

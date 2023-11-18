@@ -1,0 +1,182 @@
+.carddoc{
+    /* height: 250px; */
+    height: 280px;
+    border-top: 0.7px solid rgb(221, 221, 221);
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.image_container{
+    flex: 0 0 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.8rem;
+    position: relative
+}
+
+.hero{
+    display: inline-block;
+    position: relative;
+}
+
+.badge{
+    background: url('../../public/verify.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    left: 85%;
+    top: 55%;
+}
+
+.badge2{
+    background: url('../../public/calander.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    transform: translateY(1px);
+    margin: 0 5px;
+}
+
+.badge3{
+    background: url('../../public/Thumbs.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    transform: translateY(1px);
+    margin: 0 5px;
+}
+
+.image{
+    /* width:160px;
+    height:160px; */
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    transform: translateY(-15%);
+}
+
+.info{
+    flex: 0 0 40%;
+    padding: 1.1rem 0;
+    text-align: left;
+}
+
+.info_header{
+    color: #199FD9;
+    font-size: 1.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    font-weight: normal;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.info_type{
+    font-size: 1rem;
+    margin: 0.3rem 0;
+    color: rgb(160, 160, 160);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.info_exp{
+    font-size: 1rem;
+    margin: 0.3rem 0;
+    color: rgb(160, 160, 160);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.info_addr{
+    font-size: 1rem;
+    margin: 0.6rem 0 0.25rem 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.info_fees{
+    font-size: 1rem;
+    margin: 0.25rem 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.rating{
+    height: 100%;
+    background-color: aqua;
+}
+
+.info_rating{
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 5px;
+    background-color: #00A500;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.info_rating2{
+    margin: 0.5rem 0 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: underline;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.cta{
+    flex-basis: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.cta_button{
+    background-color: #199FD9;
+    color: white;
+    width: 60%;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+}
+
+.cta_text{
+    margin: 2.3rem auto;
+    font-size: 1.1rem;
+    display: block;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(69 147 86);
+    font-weight: bold;
+    transform: translateY(450%)
+    
+}
+
+.cta_button{
+    margin: auto;
+}
+
+.cta_button_head{
+    display: block;
+    font-size: 1rem;
+}
+
+.cta_button_text{
+    font-size: 0.85rem;
+}
+
+hr.dotted {
+    border-top: 0.5px dotted #e7e7e74f;
+    margin: 1rem 0;
+}
