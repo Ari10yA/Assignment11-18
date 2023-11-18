@@ -2,7 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const express = require('express');
 const Storage = require('./storage');
-const cors = require('cors')
+const cors = require('cors');
+const port = process.env.PORT || 4000;
 
 const Store = new Storage();
 
@@ -72,6 +73,6 @@ app.get('/types', (req, res, next) => {
 })
 
 
-app.listen(4000, () => {
+app.listen(port, () => {
     console.log('Sever is running on port 4000');
 })
